@@ -12,7 +12,7 @@ int main() {
     float nota1, nota2, nota3, nota4, media;
 
     printf("=== Sistema NotaFlow ===\n\n");
-    printf("Informe o nome da disciplina: ");
+    printf("Informe o nome da disciplina(sem acentos): ");
     scanf("%s", disciplina);
     /*Aqui tem um passo importante, solicita ao usuário
       o nome da disciplina que ele quer ver, que foi salvo
@@ -68,3 +68,4 @@ int main() {
     //fechamento do ponteiro.
     return 0;
 }
+
